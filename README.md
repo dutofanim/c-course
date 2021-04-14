@@ -9,18 +9,18 @@ The C language is a great language to learn, since most of the high-level langua
 
 ### Essentials topics
 
-- [ ] Understand the difference between High Level vs. Low Level
-- [ ] Understand the difference between Programming vs. Coding
-- [ ] Variable Definition and Printing Review
-- [ ] Defining Constant
+- [x] Understand the difference between High Level vs. Low Level
+- [x] Understand the difference between Programming vs. Coding
+- [x] Variable Definition and Printing Review
+- [x] Defining Constant
+- [x] Create repetition loops (While, For)
+- [x] Using Logical Connectives (AND, OR, NOT)
+- [x] Work with Simple or Composite Conditionals (IF, Switch Case)
+- [x] Do mathematical operations
+- [x] Use different types of variables (Int, Float, Char, Boolean)
+- [ ] Vectors, Matrices and Repeating Loops Review
 - [ ] Define, Browse and Access Matrices
 - [ ] Define, Browse and Access Vectors
-- [ ] Create repetition loops (While, For)
-- [ ] Vectors, Matrices and Repeating Loops Review
-- [ ] Using Logical Connectives (AND, OR, NOT)
-- [ ] Work with Simple or Composite Conditionals (IF, Switch Case)
-- [ ] Do mathematical operations
-- [ ] Use different types of variables (Int, Float, Char, Boolean)
 - [ ] How to Use Pointers
 - [ ] How to clean the screen
 - [ ] Use non-return functions
