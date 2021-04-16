@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<locale.h>
 
-void main() {
+int main() {
   setlocale(LC_ALL,"");
 
   /*
@@ -17,8 +17,8 @@ void main() {
  scanf("%d",&number);
 
  if (number < 0) {
-   printf("Digite um número inteiro positivo maior que zero na próxima execução.");
-   system("break");
+   printf("Digite um número inteiro positivo maior que zero na próxima execução.\n");
+   return 0;
  } else {
    while (index <= number) {
    sum += index;
