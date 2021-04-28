@@ -18,7 +18,7 @@ The C language is a great language to learn, since most of the high-level langua
 - [x] Work with Simple or Composite Conditionals (IF, Switch Case)
 - [x] Do mathematical operations
 - [x] Use different types of variables (Int, Float, Char, Boolean)
-- [ ] Vectors, Matrices and Repeating Loops Review
+- [x] Vectors, Matrices and Repeating Loops Review
 - [ ] Define, Browse and Access Matrices
 - [ ] Define, Browse and Access Vectors
 - [ ] How to Use Pointers
