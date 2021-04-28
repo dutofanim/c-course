@@ -15,15 +15,15 @@ void main() {
 
   /*
     Enunciado:
-     Uma loja de discos anota diariamente durante o mês de março a quantidade de discos vendidos.
-     Determinar em que dia desse mês ocorreu a maior venda e qual foi a quantidade de discos vendida nesse dia.
+      Uma loja de discos anota diariamente durante o mês de março a quantidade de discos vendidos.
+      Determinar em que dia desse mês ocorreu a maior venda e qual foi a quantidade de discos vendida nesse dia.
   */
 
   struct month mes[31];
   struct month result[1];
 
   int monthDays, index, temp = 0;
-  result[1].sellQuantity = 0;
+  result[0].sellQuantity = 0;
 
   srand(time(0));
 
@@ -35,13 +35,13 @@ void main() {
 
   for (index = 0; index < 31; index += 1) {
     temp = mes[index].sellQuantity;
-    if (temp > result[1].sellQuantity) {
-      result[1].dayNumber = index + 1;
-      result[1].sellQuantity = temp;
+    if (temp > result[0].sellQuantity) {
+      result[0].dayNumber = index + 1;
+      result[0].sellQuantity = temp;
     }
   }
 
-  printf("O dia %d foi o dia com a maior venda: %d discos\n", result[1].dayNumber, result[1].sellQuantity);
+  printf("O dia %d foi o dia com a maior venda: %d discos\n", result[0].dayNumber, result[0].sellQuantity);
 }
 
 /*
